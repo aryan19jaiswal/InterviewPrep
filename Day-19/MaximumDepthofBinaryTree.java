@@ -1,5 +1,6 @@
 //LEETCODE-104
-public class Solution {
+public class Solution
+{
     public int maxDepth(TreeNode root) {
         Queue<TreeNode> q = new LinkedList<>();
         if (root != null) {
